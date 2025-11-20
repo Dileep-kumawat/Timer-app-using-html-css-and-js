@@ -19,7 +19,7 @@ It supports **Start**, **Pause**, and **Reset**, and even **auto-saves progress 
 
 ## 🔗 Live Demo
 
-> 🌐 **Live App:** []()
+> 🌐 **Live App:** [https://dileep-kumawat.github.io/Timer-app-using-html-css-and-js/](https://dileep-kumawat.github.io/Timer-app-using-html-css-and-js/)
 
 ---
 
@@ -67,7 +67,7 @@ It supports **Start**, **Pause**, and **Reset**, and even **auto-saves progress 
 1. Clone the repository:
 
    ```bash
-   git clone 
+   git clone https://github.com/Dileep-kumawat/Timer-app-using-html-css-and-js.git
    ```
 2. Open the folder
 3. Run the project using any Live Server or open `index.html` directly.
