@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1d2671, #c33764);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    color: white;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.timer-box {
+    margin: 20px 0;
+}
+
+.timer-display {
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.colon {
+    margin: 0 8px;
+}
+
+.btn-group {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    flex: 1;
+    margin: 0 5px;
+    padding: 12px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: white;
+}
+
+.start {
+    background: #28a745;
+}
+
+.pause {
+    background: #ffc107;
+    color: #333;
+}
+
+.reset {
+    background: #dc3545;
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+.btn:disabled{
+    background: gray;
+}
+
+.btn:disabled:active{
+    transform: none;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
